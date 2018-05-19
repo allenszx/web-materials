@@ -9,10 +9,10 @@ shinyUI(navbarPage(
     titlePanel("Electoral College Votes"),
     # Create sidebar layout
     sidebarLayout(
-
+     
       # Side panel for controls
       sidebarPanel(
-
+        tags$h2("This is an interative map"),
         # Input to select variable to map
         selectInput(
           "mapvar",

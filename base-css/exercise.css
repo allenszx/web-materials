@@ -3,7 +3,11 @@
 /* add an id to the top level h1 header called first-header*/
 
 /* change the color of the first-header to purple and set font-family to Roboto*/
-
+h1 {
+  font-family: 'Roboto';
+  color: white;
+  background-color: #333
+}
 /* add a class to both h2 headers called second-header */
 
 /* change the background color of each h2 to gold */
@@ -25,6 +29,6 @@
 
 
 
-/*add a transition to the image and the image when it is hovered so that the change in size happens for 1s and 'ease-out' 
+/*add a transition to the image and the image when it is hovered so that the change in size happens for 1s and 'ease-out'
 hint: modify img and img:hover to have a `transition` property
 */
